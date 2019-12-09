@@ -18,20 +18,14 @@ public class Student {
         
     }
     public void showdata (){
+        System.out.println("**************************************");
         System.out.println("SD : "+studentId);
         System.out.println("Name : "+studentName);
         System.out.println("Major : "+major);
         System.out.println("Faculty : "+faculty);
+        System.out.println("**************************************");
     }
-    
-    public static void main(String[] args) { // psvm
-       
-        Student nas = new Student();
-        System.out.println("Ofject"+nas);
-        nas.studentId = "61423028";
-        nas.studentName = "Teeravut";
-        nas.major = "CS";
-        nas.faculty = "Scien and Technology";
-        nas.showdata();
+
+                
     }
 }//end class
